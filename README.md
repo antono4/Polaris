@@ -96,3 +96,7 @@ Contributions are what make the open source community such an amazing place to b
 ## Support Me 🚀
 <a href="https://paypal.me/chibanimohamed"><img width="280" height="100" src="https://github.com/ChibaniMohamed/polaris/blob/main/imgs/paypal-donate-button.png"></a>
 </p>
+
+---
+
+> **Created by Antono**
