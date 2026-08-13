@@ -1,102 +1,64 @@
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
+
+<h1 align="center">Project 👋</h1>
+
 <p align="center">
-  <img width="680" height="480" src="https://github.com/ChibaniMohamed/polaris/blob/main/imgs/pol.jpg">
+  <strong></strong>
 </p>
+
 <p align="center">
-   <img src="https://img.shields.io/badge/Dev-XN3UR0N-green?style=for-the-badge"/>
-   <img src="https://img.shields.io/badge/language-python-blue?style=for-the-badge"/>
-   <img src="https://img.shields.io/github/license/ChibaniMohamed/Polaris?style=for-the-badge"/>
-   <img src="https://img.shields.io/github/stars/ChibaniMohamed/Polaris?style=for-the-badge"/>
-   <img src="https://img.shields.io/github/forks/ChibaniMohamed/Polaris?style=for-the-badge"/>
-   <img src="https://visitor-badge.laobi.icu/badge?style=for-the-badge&page_id=ChibaniMohamed.Pretty-Readme">
-</p>
-<p align="center">
-  
-## Support Me 🚀
-<a href="https://paypal.me/chibanimohamed"><img width="280" height="100" src="https://github.com/ChibaniMohamed/polaris/blob/main/imgs/paypal-donate-button.png"></a>
-</p>
-
-## About Polaris 📄
-<p align="center">
-  <img width="880" height="480" src="https://github.com/ChibaniMohamed/polaris/blob/main/imgs/polaris_main.PNG">
-</p>
-  <p align="center">
-  
-  **Polaris is a system based on facial recognition with a futuristic GUI design, Can easily find people informations stored in a database using their pictures .**
-  </p>
-  
-  ## Functionality Supported 📌 :
-  
-  - **Register new people :**
-  
-  <p align="center">
-  <img width="880" height="480" src="https://github.com/ChibaniMohamed/polaris/blob/main/imgs/polaris_form.PNG">
-</p>
-  
-  - **Search for people using their pictures :**
-  
-  <p align="center">
-  <img width="880" height="480" src="https://github.com/ChibaniMohamed/polaris/blob/main/imgs/polaris_elon.png">
-</p>
-
-## Built Using 🔧
-- **PyQt5** - PyQt5 is a Python binding of the cross-platform GUI toolkit Qt
-- **OpenCV** - Open Source Computer Vision and Machine Learning software library
-- **Dlib** - C++ Library containing Machine Learning Algorithms
-- **face_recognition** by Adam Geitgey 
-
-## How to use 🔨
-- First of all, we have to install all the required libraries .
-
-- **PyQt5** :
-
-```
-pip install PyQt5
-```
-
-- **OpenCV** :
-
-```
-pip install opencv-python
-```
-
-- **Numpy** :
-
-```
-pip install numpy
-```
-
-- **Dlib** :
-
-```
-pip install dlib
-```
-
-- **face_recognition** :
-
-```
-pip install face_recognition
-```
-- **PIL** :
-```
-pip install pillow
-```
-- Then, Clone the repository and run the program 💻
-```
-git clone https://github.com/ChibaniMohamed/Polaris.git
-
-cd Polaris/
-
-python main.py
-```
-
-## Contributing 💡
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
-<p align="center">
-  
-## Support Me 🚀
-<a href="https://paypal.me/chibanimohamed"><img width="280" height="100" src="https://github.com/ChibaniMohamed/polaris/blob/main/imgs/paypal-donate-button.png"></a>
+  <a href="https://github.com/antono4/Polaris"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/Polaris-blue?logo=github"></a>
+  <a href="https://antono4.github.io/Polaris/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-29-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-08-13 11:29:09 WIB-lightgrey">
 </p>
 
 ---
 
-> **Created by Antono**
+## 📖 Tentang
+
+Repository **`Polaris`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/Polaris/`](https://antono4.github.io/Polaris/).
+
+## 🗂️ Struktur Proyek
+
+```
+Polaris/
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
+```
+
+## 🛠️ Teknologi
+
+Berdasarkan isi repository, proyek ini menggunakan:
+
+- `Python`
+
+> Total **29 file** terdeteksi di repository.
+
+## 🚀 Menjalankan Secara Lokal
+
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
+
+```bash
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
+```
+
+## 📬 Kontak
+
+- GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/Polaris/](https://antono4.github.io/Polaris/)
+
+## 📄 Lisensi
+
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
+
+---
+
+<sub>README ini di-generate otomatis pada **2026-08-13 11:29:09 WIB** oleh GitHub Actions .</sub>
